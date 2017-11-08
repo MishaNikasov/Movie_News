@@ -33,8 +33,6 @@ public class FragmentFavorites extends Fragment {
     private static ArrayList<NewsData> newsDatas;
     private static ArrayList<Object> newsDatasObjects;
 
-    private static final String LOG_TAG = "FragmentFav";
-
     public FragmentFavorites() {
     }
 
