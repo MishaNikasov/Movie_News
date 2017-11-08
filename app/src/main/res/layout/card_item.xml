@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        android:clickable="true"
+
+        android:foreground="?selectableItemBackground"
+        card:cardCornerRadius="2dp"
+
+        card:cardElevation="3dp"
+
+        card:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/cardLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/relativelayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:id="@+id/cardImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    app:srcCompat="@drawable/im"
+                    android:contentDescription="Фото" />
+
+                <TextView
+                    android:id="@+id/title"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/cardImage"
+                    android:layout_alignLeft="@id/cardImage"
+
+                    android:layout_alignRight="@id/cardImage"
+                    android:layout_alignTop="@id/cardImage"
+                    android:textStyle="bold"
+
+                    android:gravity="bottom"
+                    android:padding="10dp"
+
+                    android:text="Title"
+
+                    android:textColor="@android:color/white"
+                    android:shadowColor="@android:color/black"
+
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+
+                    android:textSize="25sp" />
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:paddingBottom="0dp"
+                >
+
+                <TextView
+                    android:id="@+id/cardDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/textColor"
+
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/cardDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TEST"
+                    android:textColor="@android:color/black"
+                    android:typeface="serif"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
