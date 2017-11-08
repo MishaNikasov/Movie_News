@@ -45,7 +45,10 @@ public class MainActivity extends AppCompatActivity
     private FragmentFeed fragmentFeed;
     private FragmentNewsBlock fragmentNewsBlock;
     private FragmentGallery fragmentGallery;
+
     private static final String LOG_TAG = "MyActivity";
+    private static final String NEW_LOG_TAG = "Test";
+
     private PaletteColorType paletteColorType;
 
     @Override
