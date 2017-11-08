@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
         System.out.println("GIT repos");
+        System.out.println("GIT repos2");
 
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Галерея");
