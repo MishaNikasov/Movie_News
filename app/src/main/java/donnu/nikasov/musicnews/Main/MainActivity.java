@@ -57,6 +57,8 @@ public class MainActivity extends AppCompatActivity
 
         System.out.println("GIT");
 
+        System.out.println("GIT");
+
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Галерея");
         getSupportActionBar().hide();
