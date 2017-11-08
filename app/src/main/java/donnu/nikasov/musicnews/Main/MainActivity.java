@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity
 
     private static final String LOG_TAG = "MyActivity";
     private static final String NEW_LOG_TAG = "Test";
-    private static final String NEW_LOG_TAG2 = "Test";
 
     private PaletteColorType paletteColorType;
 
