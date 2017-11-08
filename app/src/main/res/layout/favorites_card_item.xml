@@ -14,7 +14,7 @@
         android:clickable="true"
 
         android:foreground="?selectableItemBackground"
-        card:cardCornerRadius="0dp"
+        card:cardCornerRadius="5dp"
 
         card:cardElevation="5dp"
 
